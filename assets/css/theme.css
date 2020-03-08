@@ -1361,8 +1361,8 @@ blockquote cite {
 .typed-cursor {
   float: left;
   font-weight: 100;
-  -webkit-animation: blink 1.8s infinite;
-          animation: blink 1.8s infinite;
+  -webkit-animation: blink 1.5s infinite;
+          animation: blink 1.5s infinite;
   opacity: 1;
 }
 
