@@ -1361,8 +1361,8 @@ blockquote cite {
 .typed-cursor {
   float: left;
   font-weight: 100;
-  -webkit-animation: blink 1.5s infinite;
-          animation: blink 1.5s infinite;
+  -webkit-animation: blink 1.8s infinite;
+          animation: blink 1.8s infinite;
   opacity: 1;
 }
 
@@ -2173,7 +2173,7 @@ blockquote cite {
   height: 100%;
   content: '';
   /* opacity: 1; */
-  background-color: RGBA(22, 24, 24, .98);
+  background-color: RGBA(22, 24, 24, .97);
 }
 
 /* Buttons

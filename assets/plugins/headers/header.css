@@ -1281,7 +1281,7 @@ html [data-off-canvas*=open] {
     padding: 0;
     margin-bottom: 0;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .fullscreen-center-menu li a:hover {
