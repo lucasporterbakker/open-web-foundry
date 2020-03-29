@@ -228,6 +228,23 @@ p + p {
   background-color: #fff;
 }
 
+.b-btn__inner-expand {
+  font-size: 12px;
+  font-weight: 900;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  text-transform: uppercase;
+  color: #333;
+  border: none;
+  border-bottom: 1px solid transparent;
+  background-color: RGBA(246, 246, 246, 1.00);
+}
+
+.b-btn__inner-expand:hover {
+  cursor: pointer;
+}
+
+
 .b-btn .ui-decor {
   font-weight: 400;
 }
