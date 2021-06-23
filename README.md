@@ -1,4 +1,3 @@
-# dana-niddery
 # arweave
 <<<<<<< HEAD
 =======
