@@ -2831,10 +2831,10 @@ blockquote cite {
 }
 
 .b-title-page__wrap {
-  display: inline-block;
+  /* display: inline-block; */
   width: 600px;
   padding-top: 12px;
-  text-align: center;
+  text-align: left;
 }
 
 .b-title-page__wrap .typed-cursor {
@@ -4173,7 +4173,7 @@ blockquote cite {
   letter-spacing: 0.15em;
 
   display: inline-block;
-  padding: 15px 20px;
+  padding: 15px 0px;
   position: relative;
 }
 .apply-light a:after {
@@ -4182,15 +4182,15 @@ blockquote cite {
   content: "";
   display: block;
   height: 2px;
-  left: 50%;
+  /* left: 50%; */
   position: absolute;
   background: blue;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
 .apply-light a:hover:after {
-  width: 100%;
-  left: 0;
+  width: 110%;
+  left: -5;
 }
 @media screen and (max-height: 300px) {
 	ul {
