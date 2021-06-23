@@ -28,7 +28,7 @@
 -------------------------------------------------------------------*/
 /* ======= GLOBAL ======= */
 body {
-  font: 14px/1.8572 Lato;
+  font: 14px/1.8572 roboto;
   letter-spacing: .025em;
   color: #777;
   background-color: #222;
@@ -2132,7 +2132,7 @@ blockquote cite {
 .main-slider__subtitle {
   font-size: 42px;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
   letter-spacing: .2em;
   text-transform: uppercase;
 }
