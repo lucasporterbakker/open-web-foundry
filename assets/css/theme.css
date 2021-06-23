@@ -2129,13 +2129,25 @@ blockquote cite {
   margin-bottom: 3px;
 }
 
+
 .main-slider__subtitle {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 800;
   text-align: left;
   letter-spacing: .2em;
   font-style: 'roboto' !important;
   /* text-transform: uppercase; */
+}
+
+@media only screen and (max-width: 600px) {
+  .main-slider__subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: .2em;
+    font-style: 'roboto' !important;
+    /* text-transform: uppercase; */
+  }
 }
 
 /* Previous */
