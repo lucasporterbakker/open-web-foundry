@@ -864,7 +864,7 @@ blockquote cite {
 
 .section-first {
   padding-top: 143px;
-  padding-bottom: 90px;
+  padding-bottom: 60px;
 }
 
 .section-content {
@@ -900,8 +900,8 @@ blockquote cite {
 }
 
 .section-type-1 {
-  padding-top: 35px;
-  padding-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-type-2 {
@@ -1834,7 +1834,7 @@ blockquote cite {
 }
 
 .b-brands {
-  margin: 45px auto 100px;
+  margin: 45px auto 125px;
 }
 
 .b-brands__item {
@@ -2130,11 +2130,20 @@ blockquote cite {
 }
 
 .main-slider__subtitle {
-  font-weight: 300;
-  text-align: right;
-  letter-spacing: .5em;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: .2em;
   text-transform: uppercase;
 }
+
+/* .main-slider__subtitle {
+  font-size: 68px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+} */
 
 .main-slider__btn {
   color: #fff;
@@ -4122,4 +4131,69 @@ blockquote cite {
 
 .col-md-3.sticky-bar{
     max-width: 24.7%;
+}
+
+
+.apply a {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.apply a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: blue;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.apply a:hover:after {
+  width: 100%;
+  left: 0;
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
+.apply-light a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.apply-light a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: blue;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.apply-light a:hover:after {
+  width: 100%;
+  left: 0;
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
 }
