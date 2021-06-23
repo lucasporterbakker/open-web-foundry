@@ -2130,12 +2130,22 @@ blockquote cite {
 }
 
 .main-slider__subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: .2em;
+  font-style: 'roboto' !important;
+  /* text-transform: uppercase; */
+}
+
+/* Previous */
+/* .main-slider__subtitle {
   font-size: 38px;
   font-weight: 600;
   text-align: left;
   letter-spacing: .2em;
   text-transform: uppercase;
-}
+} */
 
 /* .main-slider__subtitle {
   font-size: 68px;
