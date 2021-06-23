@@ -2132,7 +2132,7 @@ blockquote cite {
 .main-slider__subtitle {
   font-size: 38px;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
   letter-spacing: .2em;
   text-transform: uppercase;
 }
